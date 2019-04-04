@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="overlay"></div>
+
+      <nav>
+        <i class="fas fa-times"></i>
+        <div class="logo">
+          <img src="images/nintendologo.png" alt="logo" />
+        </div>
+
+        <div class="nav-middle">
+          <ul>
+            <li id="m1"><a href="">Whats New?</a></li>
+            <li id="m2"><a href="">Blog</a></li>
+            <li id="m3"><a href="">Catalog</a></li>
+            <li id="m4"><a href="">About</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-right">
+          <ul>
+            <li>
+              <a href="">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+            <li>
+              <a href=""> <i class="fas fa-user"></i> Account </a>
+            </li>
+            <li>
+              <a href=""> <i class="fas fa-shopping-cart"></i> Cart </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main">
+        <div class="tone-1">
+          <div class="product-info">
+            <h1>Nintendo Switch</h1>
+            <p>Available <strong>NOW!</strong></p>
+            <h2>$299.99</h2>
+            <div class="info-btns">
+              <a href="" class="btn discover-btn">DISCOVER </a>
+              <a href="" class="btn cart-btn">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+        <div class="tone-2" data-aos="zoom-in" data-aos-duration="2500">
+          <img id="image" src="images/home.png" alt="shoe" />
+        </div>
+      </div>
+    </header>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
